@@ -1,0 +1,12 @@
+.el-change-enter-active {
+  transition: all .3s cubic-bezier(0,.99,.11,1.1);
+}
+.el-change-leave-active {
+  // transition: all 0s;
+}
+
+.el-change-enter, .el-change-leave-to
+/* .el-change-leave-active below version 2.1.8 */ {
+  transform: translateY(-100%);
+  opacity: 0;
+}
